@@ -1,0 +1,25 @@
+CommitMsg:
+  ALL:
+    quiet: true
+  TextWidth:
+    enabled: true
+    max_subject_width: 72
+    max_body_width: 72
+PreCommit:
+  BundleCheck:
+    enabled: true
+  HardTabs:
+    enabled: true
+  LineEndings:
+    enabled: true
+  MergeConflicts:
+    enabled: true
+  RuboCop:
+    enabled: true
+    command: ["bundle", "exec", "rubocop"] # Invoke within Bundler context
+  TrailingWhitespace:
+    enabled: true
+
+# PrePush:
+#   Minitest:
+#     enabled: true

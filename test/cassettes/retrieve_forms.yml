@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.typeform.com/forms?page_size=200
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Typeform Ruby Client Gem 0.1.0
+      accept:
+      - application/json
+      authorization:
+      - Bearer FujKwgkw5U5uVVjqX9ts15wkgzP9wgZ4zDhuApEbm1xk
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 13 Oct 2021 05:36:07 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '2182'
+      connection:
+      - close
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '68'
+      access-control-allow-methods:
+      - GET, OPTIONS, POST, PUT, PATCH, DELETE
+      access-control-allow-headers:
+      - X-Typeform-Key, Content-Type, Authorization, Typeform-Version
+      access-control-expose-headers:
+      - Location, X-Request-Id
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      x-newp:
+      - 'Yes'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0b3RhbF9pdGVtcyI6NSwicGFnZV9jb3VudCI6MSwiaXRlbXMiOlt7ImlkIjoiSmsweUJEVjUiLCJ0eXBlIjoicXVpeiIsInRpdGxlIjoi7Jik66as7KeA64SQIO2BtOuemOyKpCDshKTrrLjsobDsgqwo7KCV64uk7JiBIOupmO2GoCkiLCJsYXN0X3VwZGF0ZWRfYXQiOiIyMDIxLTA5LTMwVDA0OjA3OjE3LjIwMzAzN1oiLCJjcmVhdGVkX2F0IjoiMjAyMS0wOS0zMFQwMzo1NDowMS41OTM3MzRaIiwic2V0dGluZ3MiOnsiaXNfcHVibGljIjp0cnVlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvSmsweUJEVjUifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvWXRlamlwTUEifSwiX2xpbmtzIjp7ImRpc3BsYXkiOiJodHRwczovL2l0ZGFhLXN1cnZleS50eXBlZm9ybS5jb20vdG8vSmsweUJEVjUifX0seyJpZCI6InJvWGV1YThUIiwidHlwZSI6InF1aXoiLCJ0aXRsZSI6IuyYpOumrOyngOuEkCDtgbTrnpjsiqQg7ISk66y47KGw7IKsKOyLoOuPmeyErSDrqZjthqApIiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0zMFQwNDowNDowNy45MjcyMzZaIiwiY3JlYXRlZF9hdCI6IjIwMjEtMDktMzBUMDI6NTE6NDEuNjY3MzA3WiIsInNldHRpbmdzIjp7ImlzX3B1YmxpYyI6dHJ1ZSwiaXNfdHJpYWwiOmZhbHNlfSwic2VsZiI6eyJocmVmIjoiaHR0cHM6Ly9hcGkudHlwZWZvcm0uY29tL2Zvcm1zL3JvWGV1YThUIn0sInRoZW1lIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vdGhlbWVzL1l0ZWppcE1BIn0sIl9saW5rcyI6eyJkaXNwbGF5IjoiaHR0cHM6Ly9pdGRhYS1zdXJ2ZXkudHlwZWZvcm0uY29tL3RvL3JvWGV1YThUIn19LHsiaWQiOiJxNVprNzJETCIsInR5cGUiOiJxdWl6IiwidGl0bGUiOiJjb3B5IG9mIOuvuOuLiOyngeustCDrsJXrnoztmowg7ISk66y4IiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0yOFQwOTowMjoxMC40NTgxWiIsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI4VDA4OjU5OjU2Ljc1ODA2NFoiLCJzZXR0aW5ncyI6eyJpc19wdWJsaWMiOmZhbHNlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvcTVaazcyREwifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvcUhXT1E3In0sIl9saW5rcyI6eyJkaXNwbGF5IjoiaHR0cHM6Ly9pdGRhYS1zdXJ2ZXkudHlwZWZvcm0uY29tL3RvL3E1Wms3MkRMIn19LHsiaWQiOiJFaXQ1cXMydSIsInR5cGUiOiJxdWl6IiwidGl0bGUiOiIw7JuUIDDsnbwg7J6H64ukIOuvuOuLiCDsp4HrrLQg67CV656M7ZqMIOunjOyhseuPhCDshKTrrLjsobDsgqxf7KeB66y066qFIiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0zMFQwMjoyODowNS41NzU5NDdaIiwiY3JlYXRlZF9hdCI6IjIwMjEtMDktMjhUMDQ6MDQ6NTQuMDc1MDc0WiIsInNldHRpbmdzIjp7ImlzX3B1YmxpYyI6dHJ1ZSwiaXNfdHJpYWwiOmZhbHNlfSwic2VsZiI6eyJocmVmIjoiaHR0cHM6Ly9hcGkudHlwZWZvcm0uY29tL2Zvcm1zL0VpdDVxczJ1In0sInRoZW1lIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vdGhlbWVzL3FIV09RNyJ9LCJfbGlua3MiOnsiZGlzcGxheSI6Imh0dHBzOi8vaXRkYWEtc3VydmV5LnR5cGVmb3JtLmNvbS90by9FaXQ1cXMydSJ9fSx7ImlkIjoiZjdydzJvU2siLCJ0eXBlIjoicXVpeiIsInRpdGxlIjoiKO2DgOyehe2PvHZlci4pIDDsm5QgMOydvCDsnofri6Qg66+464uIIOyngeustCDrsJXrnoztmowg66eM7KGx64+EIOyEpOusuOyhsOyCrF/sp4HrrLTrqoUiLCJsYXN0X3VwZGF0ZWRfYXQiOiIyMDIxLTA5LTI4VDA5OjAxOjMzLjY1MzA3N1oiLCJjcmVhdGVkX2F0IjoiMjAyMS0wOS0xNlQwMjozMDozNi4xMzA0MTFaIiwic2V0dGluZ3MiOnsiaXNfcHVibGljIjp0cnVlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvZjdydzJvU2sifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvWXRlamlwTUEifSwiX2xpbmtzIjp7ImRpc3BsYXkiOiJodHRwczovL2l0ZGFhLXN1cnZleS50eXBlZm9ybS5jb20vdG8vZjdydzJvU2sifX1dfQ==
+  recorded_at: Wed, 13 Oct 2021 05:36:07 GMT
+recorded_with: VCR 6.0.0
