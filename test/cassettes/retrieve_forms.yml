@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Typeform Ruby Client Gem 0.1.0
+      - Typeform Ruby Client Gem 0.1.1
       accept:
       - application/json
       authorization:
