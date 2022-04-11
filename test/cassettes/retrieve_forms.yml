@@ -2,17 +2,17 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.typeform.com/forms?page_size=200
+    uri: https://api.typeform.com/forms?page_size=200&search=Template&workspace_id=bfpyk8
     body:
       encoding: UTF-8
       string: ''
     headers:
       User-Agent:
-      - Typeform Ruby Client Gem 0.1.1
+      - Typeform Ruby Client Gem 0.1.2
       accept:
       - application/json
       authorization:
-      - Bearer FujKwgkw5U5uVVjqX9ts15wkgzP9wgZ4zDhuApEbm1xk
+      - Bearer tfp_62Xro3C5DmF2NTCQxj2mgjWPuEsefiDVHwY1zBi3HdaF_ep1x8XubFLtg
       Content-Type:
       - application/x-www-form-urlencoded
   response:
@@ -21,17 +21,21 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 13 Oct 2021 05:36:07 GMT
+      - Mon, 11 Apr 2022 09:52:29 GMT
       content-type:
       - application/json
       content-length:
-      - '2182'
+      - '495'
       connection:
-      - close
+      - keep-alive
+      set-cookie:
+      - AWSALBTG=wzqnyYKa6tU7dFKXUbojpc8R5VRJDpPo3y/2lPCKmnLXuzkdZ8ADNaLMdLW1E5/RSAhBzrmNZqCxUIWE2+fb4rTrmhlF5yET6028vCS6i0/XGTQDPN4bEw8wMa2VXCmJu7O8bC6TigOkmDWt5qURyEIKgH8VLYxIfjQMh2xn5Rzl;
+        Expires=Mon, 18 Apr 2022 09:52:29 GMT; Path=/, AWSALBTGCORS=wzqnyYKa6tU7dFKXUbojpc8R5VRJDpPo3y/2lPCKmnLXuzkdZ8ADNaLMdLW1E5/RSAhBzrmNZqCxUIWE2+fb4rTrmhlF5yET6028vCS6i0/XGTQDPN4bEw8wMa2VXCmJu7O8bC6TigOkmDWt5qURyEIKgH8VLYxIfjQMh2xn5Rzl;
+        Expires=Mon, 18 Apr 2022 09:52:29 GMT; Path=/; SameSite=None; Secure
       server:
       - istio-envoy
       x-envoy-upstream-service-time:
-      - '68'
+      - '40'
       access-control-allow-methods:
       - GET, OPTIONS, POST, PUT, PATCH, DELETE
       access-control-allow-headers:
@@ -45,6 +49,6 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJ0b3RhbF9pdGVtcyI6NSwicGFnZV9jb3VudCI6MSwiaXRlbXMiOlt7ImlkIjoiSmsweUJEVjUiLCJ0eXBlIjoicXVpeiIsInRpdGxlIjoi7Jik66as7KeA64SQIO2BtOuemOyKpCDshKTrrLjsobDsgqwo7KCV64uk7JiBIOupmO2GoCkiLCJsYXN0X3VwZGF0ZWRfYXQiOiIyMDIxLTA5LTMwVDA0OjA3OjE3LjIwMzAzN1oiLCJjcmVhdGVkX2F0IjoiMjAyMS0wOS0zMFQwMzo1NDowMS41OTM3MzRaIiwic2V0dGluZ3MiOnsiaXNfcHVibGljIjp0cnVlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvSmsweUJEVjUifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvWXRlamlwTUEifSwiX2xpbmtzIjp7ImRpc3BsYXkiOiJodHRwczovL2l0ZGFhLXN1cnZleS50eXBlZm9ybS5jb20vdG8vSmsweUJEVjUifX0seyJpZCI6InJvWGV1YThUIiwidHlwZSI6InF1aXoiLCJ0aXRsZSI6IuyYpOumrOyngOuEkCDtgbTrnpjsiqQg7ISk66y47KGw7IKsKOyLoOuPmeyErSDrqZjthqApIiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0zMFQwNDowNDowNy45MjcyMzZaIiwiY3JlYXRlZF9hdCI6IjIwMjEtMDktMzBUMDI6NTE6NDEuNjY3MzA3WiIsInNldHRpbmdzIjp7ImlzX3B1YmxpYyI6dHJ1ZSwiaXNfdHJpYWwiOmZhbHNlfSwic2VsZiI6eyJocmVmIjoiaHR0cHM6Ly9hcGkudHlwZWZvcm0uY29tL2Zvcm1zL3JvWGV1YThUIn0sInRoZW1lIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vdGhlbWVzL1l0ZWppcE1BIn0sIl9saW5rcyI6eyJkaXNwbGF5IjoiaHR0cHM6Ly9pdGRhYS1zdXJ2ZXkudHlwZWZvcm0uY29tL3RvL3JvWGV1YThUIn19LHsiaWQiOiJxNVprNzJETCIsInR5cGUiOiJxdWl6IiwidGl0bGUiOiJjb3B5IG9mIOuvuOuLiOyngeustCDrsJXrnoztmowg7ISk66y4IiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0yOFQwOTowMjoxMC40NTgxWiIsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI4VDA4OjU5OjU2Ljc1ODA2NFoiLCJzZXR0aW5ncyI6eyJpc19wdWJsaWMiOmZhbHNlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvcTVaazcyREwifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvcUhXT1E3In0sIl9saW5rcyI6eyJkaXNwbGF5IjoiaHR0cHM6Ly9pdGRhYS1zdXJ2ZXkudHlwZWZvcm0uY29tL3RvL3E1Wms3MkRMIn19LHsiaWQiOiJFaXQ1cXMydSIsInR5cGUiOiJxdWl6IiwidGl0bGUiOiIw7JuUIDDsnbwg7J6H64ukIOuvuOuLiCDsp4HrrLQg67CV656M7ZqMIOunjOyhseuPhCDshKTrrLjsobDsgqxf7KeB66y066qFIiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMS0wOS0zMFQwMjoyODowNS41NzU5NDdaIiwiY3JlYXRlZF9hdCI6IjIwMjEtMDktMjhUMDQ6MDQ6NTQuMDc1MDc0WiIsInNldHRpbmdzIjp7ImlzX3B1YmxpYyI6dHJ1ZSwiaXNfdHJpYWwiOmZhbHNlfSwic2VsZiI6eyJocmVmIjoiaHR0cHM6Ly9hcGkudHlwZWZvcm0uY29tL2Zvcm1zL0VpdDVxczJ1In0sInRoZW1lIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vdGhlbWVzL3FIV09RNyJ9LCJfbGlua3MiOnsiZGlzcGxheSI6Imh0dHBzOi8vaXRkYWEtc3VydmV5LnR5cGVmb3JtLmNvbS90by9FaXQ1cXMydSJ9fSx7ImlkIjoiZjdydzJvU2siLCJ0eXBlIjoicXVpeiIsInRpdGxlIjoiKO2DgOyehe2PvHZlci4pIDDsm5QgMOydvCDsnofri6Qg66+464uIIOyngeustCDrsJXrnoztmowg66eM7KGx64+EIOyEpOusuOyhsOyCrF/sp4HrrLTrqoUiLCJsYXN0X3VwZGF0ZWRfYXQiOiIyMDIxLTA5LTI4VDA5OjAxOjMzLjY1MzA3N1oiLCJjcmVhdGVkX2F0IjoiMjAyMS0wOS0xNlQwMjozMDozNi4xMzA0MTFaIiwic2V0dGluZ3MiOnsiaXNfcHVibGljIjp0cnVlLCJpc190cmlhbCI6ZmFsc2V9LCJzZWxmIjp7ImhyZWYiOiJodHRwczovL2FwaS50eXBlZm9ybS5jb20vZm9ybXMvZjdydzJvU2sifSwidGhlbWUiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS90aGVtZXMvWXRlamlwTUEifSwiX2xpbmtzIjp7ImRpc3BsYXkiOiJodHRwczovL2l0ZGFhLXN1cnZleS50eXBlZm9ybS5jb20vdG8vZjdydzJvU2sifX1dfQ==
-  recorded_at: Wed, 13 Oct 2021 05:36:07 GMT
-recorded_with: VCR 6.0.0
+        eyJ0b3RhbF9pdGVtcyI6MSwicGFnZV9jb3VudCI6MSwiaXRlbXMiOlt7ImlkIjoiSzJrdk1UME8iLCJ0eXBlIjoicXVpeiIsInRpdGxlIjoiKFRlbXBsYXRlKSAwMOydvF8y7JuUIOyeh+uLpCDsmKjrnbzsnbgg7KeB66y0IOy7qO2NvOufsOyKpCDshKTrrLjsobDsgqwgKCoqKiDrqZjthqApIiwibGFzdF91cGRhdGVkX2F0IjoiMjAyMi0wNC0wNFQwNjo0NDoxMy44MDk3NDNaIiwiY3JlYXRlZF9hdCI6IjIwMjItMDEtMjhUMDM6NTE6MjcuOTQxNzYzWiIsInNldHRpbmdzIjp7ImlzX3B1YmxpYyI6ZmFsc2UsImlzX3RyaWFsIjpmYWxzZX0sInNlbGYiOnsiaHJlZiI6Imh0dHBzOi8vYXBpLnR5cGVmb3JtLmNvbS9mb3Jtcy9LMmt2TVQwTyJ9LCJ0aGVtZSI6eyJocmVmIjoiaHR0cHM6Ly9hcGkudHlwZWZvcm0uY29tL3RoZW1lcy9ZdGVqaXBNQSJ9LCJfbGlua3MiOnsiZGlzcGxheSI6Imh0dHBzOi8vaXRkYWEtc3VydmV5LnR5cGVmb3JtLmNvbS90by9LMmt2TVQwTyJ9fV19
+  recorded_at: Mon, 11 Apr 2022 09:52:30 GMT
+recorded_with: VCR 6.1.0

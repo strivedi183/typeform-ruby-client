@@ -64,7 +64,6 @@ module Typeform
           body = JSON.parse(response.body)
           raise Typeform::Error.new(body)
         end
-
         response
       end
 

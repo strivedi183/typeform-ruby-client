@@ -6,6 +6,9 @@ module Typeform # :nodoc:
     class Form < Client
       class << self
         # retrieve forms
+        # def retrieve_forms(page_size: 200)
+        #   parse(JSON.parse(connection.get("forms?page_size=#{page_size}").body))
+        # end
         def retrieve_forms(workspace_id, page_size: 200, template: "Template")
           parse(JSON.parse(connection.get("forms?page_size=#{page_size}&workspace_id=#{workspace_id}&search=#{template}").body))
         end
