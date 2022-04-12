@@ -16,7 +16,7 @@ VCR.configure do |c|
 end
 
 Typeform.configure do |config|
-  config.typeform_token = "FujKwgkw5U5uVVjqX9ts15wkgzP9wgZ4zDhuApEbm1xk"
+  config.typeform_token = "tfp_62Xro3C5DmF2NTCQxj2mgjWPuEsefiDVHwY1zBi3HdaF_ep1x8XubFLtg"
   config.timeout = 10
   config.debug = true
 end

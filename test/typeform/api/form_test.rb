@@ -4,9 +4,11 @@ require "test_helper"
 
 class Typeform::Api::FormTest < Minitest::Spec
   it "retrieve forms" do
+    workspace_id = "bfpyk8"
+
     VCR.use_cassette("retrieve_forms") do
-      response = Typeform::Api::Form.retrieve_forms
-      assert_equal 5, response.total_items
+      response = Typeform::Api::Form.retrieve_forms(workspace_id)
+      assert_equal 1, response.total_items
     end
   end
 

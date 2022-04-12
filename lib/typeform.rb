@@ -12,6 +12,7 @@ require "typeform/objectified_hash"
 
 require "typeform/api/form"
 require "typeform/api/response"
+require "typeform/api/workspace"
 
 module Typeform
   extend Configuration
