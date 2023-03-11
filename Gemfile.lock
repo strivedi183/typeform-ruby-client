@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     typeform-ruby-client (0.1.2)
-      faraday (~> 0.15)
+      faraday
 
 GEM
   remote: https://rubygems.org/
@@ -65,10 +65,10 @@ PLATFORMS
 DEPENDENCIES
   bundler
   codecov
-  minitest (~> 5.0)
+  minitest
   overcommit
   pry
-  rake (~> 12.0)
+  rake
   rubocop
   rubocop-minitest
   rubocop-performance
